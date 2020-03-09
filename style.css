@@ -1,0 +1,59 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: darkviolet;
+    font-size: 30px;
+    background-image: url("image/bg.jpg");
+    background-size: 500px 500px;
+}
+
+.para {
+    padding: 30px;
+    text-align: center;
+    background: yellow;
+    color: white;
+    font-size: 30px;
+}
+
+.logo img
+{
+    width: 150px;
+    height: auto;
+    float:right;
+}
+
+html {
+    box-sizing: border-box;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+.column {
+    float: left;
+    width: 25.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container ::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+    }
+.headerbackground {
+    background-image: url("image/home.webp");
+    background-color: #cccccc;
+}
